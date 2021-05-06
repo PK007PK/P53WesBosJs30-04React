@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import styled from "styled-components";
-import AppProvider, { AppContext } from "./AppContext";
-import Layout from "./components/Layout";
-import GlobalStyles from "./components/styles/GlobalStyles";
+import AppProvider, { AppContext } from "AppContext";
+import Layout from "components/Layout";
+import GlobalStyles from "components/styles/GlobalStyles";
 
 const StyledDiv = styled.div`
   color: var(--black);

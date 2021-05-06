@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '../assets/Theme';
+import { theme } from 'assets/Theme';
 
 export const BootsContainer = styled.div`
   width: 100%;

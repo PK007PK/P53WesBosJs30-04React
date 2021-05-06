@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
-import { theme } from "../assets/Theme";
-import { BootsContainer } from "./BootsElements";
+import { theme } from "assets/Theme";
+import { BootsContainer } from "components/BootsElements";
 
 export default function Layout({ children }) {
   return (

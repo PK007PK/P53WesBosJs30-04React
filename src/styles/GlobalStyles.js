@@ -49,4 +49,4 @@ button {
 }
 `;
 
-export default GlobalStyles
+export default GlobalStyles;

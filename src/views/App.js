@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import AppProvider, { AppContext } from 'AppContext';
+import AppProvider, { AppContext } from '../AppContext';
 import Layout from 'components/Layout';
 import GlobalStyles from 'styles/GlobalStyles';
 

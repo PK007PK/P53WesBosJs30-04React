@@ -1,4 +1,3 @@
-
 const theme = {};
 
 theme.breakpoint = {
@@ -23,11 +22,11 @@ theme.media = {
 };
 
 theme.maxContainerWidth = {
-    xs: 540,
-    sm: 720,
-    md: 960,
-    lg: 1184,
-    xl: 1400,
-  };
+  xs: 540,
+  sm: 720,
+  md: 960,
+  lg: 1184,
+  xl: 1400,
+};
 
-  export default theme;
+export default theme;

@@ -48,17 +48,15 @@ export const BootsColumn = styled.div`
   width: 100%;
   padding: 0 15px;
   position: relative;
-
-
-    ${({ xxs }) =>
+  ${({ xxs }) =>
     xxs &&
     `
-      {
-        max-width: ${(xxs / 12) * 100}%;
-        flex: 0 0 ${(xxs / 12) * 100}%;
-      }
-    `}
-  
+    {
+      max-width: ${(xxs / 12) * 100}%;
+      flex: 0 0 ${(xxs / 12) * 100}%;
+    }
+  `}
+
   ${({ theme }) => theme.media.xsAbove} {
     ${({ xs }) =>
       xs &&
@@ -114,4 +112,3 @@ export const BootsColumn = styled.div`
     `}
   }
 `;
-

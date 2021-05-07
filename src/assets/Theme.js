@@ -1,5 +1,5 @@
 
-export const theme = {};
+const theme = {};
 
 theme.breakpoint = {
   xs: 576,
@@ -29,3 +29,5 @@ theme.maxContainerWidth = {
     lg: 1184,
     xl: 1400,
   };
+
+  export default theme;

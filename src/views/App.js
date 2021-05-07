@@ -1,8 +1,8 @@
-import { useContext } from "react";
-import styled from "styled-components";
-import AppProvider, { AppContext } from "AppContext";
-import Layout from "components/Layout";
-import GlobalStyles from "components/styles/GlobalStyles";
+import React, { useContext } from 'react';
+import styled from 'styled-components';
+import AppProvider, { AppContext } from 'AppContext';
+import Layout from 'components/Layout';
+import GlobalStyles from 'styles/GlobalStyles';
 
 const StyledDiv = styled.div`
   color: var(--black);
@@ -14,7 +14,9 @@ const StyledDiv = styled.div`
 const Button = () => {
   const { toogleIsActive, isActive } = useContext(AppContext);
   return (
-    <button onClick={toogleIsActive}>{isActive ? "True" : "False"}</button>
+    <button type="button" onClick={toogleIsActive}>
+      {isActive ? 'True' : 'False'}
+    </button>
   );
 };
 

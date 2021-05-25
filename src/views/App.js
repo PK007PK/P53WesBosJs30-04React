@@ -130,6 +130,7 @@ function App() {
   const totalYears = inventors.reduce((total, inventor) => {
     return total + (inventor.passed - inventor.year);
   }, 0);
+  console.log(totalYears);
 
   // 5. Sort the inventors by years lived
 
@@ -153,9 +154,10 @@ function App() {
   const alpha = people.sort((lastOne, nextOne) => {
     const [aLast, aFirst] = lastOne.split(', ');
     const [bLast, bFirst] = nextOne.split(', ');
+    console.log(aFirst, bFirst);
     return aLast > bLast ? 1 : -1;
   });
-
+  console.log(alpha);
   // 8. Reduce Exercise
   // Sum up the instances of each of these
 

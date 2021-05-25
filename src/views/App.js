@@ -160,7 +160,6 @@ function App() {
   // Sum up the instances of each of these
 
   const transportation = data.reduce(function (obj, item) {
-    console.log(obj);
     if (!obj[item]) {
       obj[item] = 0;
     }
